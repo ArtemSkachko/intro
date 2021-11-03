@@ -5,4 +5,26 @@
   font-family: sans-serif;
 }
 
+body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+body main .tile {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  width: 50%;
+  height: 50%;
+}
+body main .tile h1 {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=main.css.map */
