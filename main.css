@@ -38,5 +38,21 @@ body main .tile h3 {
   color: #fff;
   font-weight: 300;
 }
+body main .tile .button {
+  color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+body main .tile .button:hover {
+  background-color: #fff;
+  color: #424242;
+}
 
 /*# sourceMappingURL=main.css.map */
